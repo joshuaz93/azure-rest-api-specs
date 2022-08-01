@@ -624,9 +624,6 @@
         "coreCount": {
           "type": "integer",
           "description": "Link connection's compute core count",
-          "minimum": 2,
-          "maximum": 32,
-          "multipleOf": 2,
           "format": "int32"
         },
         "computeType": {
