@@ -818,7 +818,7 @@
         },
         "linkTableId": {
           "type": "string",
-          "description": "Link table id in landing zone"
+          "description": "Link table ID"
         },
         "errorCode": {
           "type": "string",
