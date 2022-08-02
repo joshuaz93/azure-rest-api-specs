@@ -589,7 +589,7 @@
       "properties": {
         "crossTableTransaction": {
           "type": "boolean",
-          "description": "Enable link connection target database cross table transaction"
+          "description": "Enable cross table transaction consistency on target database"
         },
         "dropExistingTargetTableOnStart": {
           "type": "boolean",
@@ -623,7 +623,7 @@
       "properties": {
         "coreCount": {
           "type": "integer",
-          "description": "Link connection's compute core count",
+          "description": "Compute core count used by the link connection",
           "format": "int32"
         },
         "computeType": {
@@ -798,7 +798,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Link table id"
+          "description": "ID provided by the client"
         },
         "status": {
           "type": "string",
